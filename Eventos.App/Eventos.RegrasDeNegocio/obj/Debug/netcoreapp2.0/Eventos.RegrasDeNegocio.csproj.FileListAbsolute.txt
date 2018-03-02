@@ -1,0 +1,3 @@
+C:\Users\Administrador\Desktop\Eventos.App\Eventos.RegrasDeNegocio\obj\Debug\netcoreapp2.0\Eventos.RegrasDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Eventos.App\Eventos.RegrasDeNegocio\obj\Debug\netcoreapp2.0\Eventos.RegrasDeNegocio.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\Eventos.App\Eventos.RegrasDeNegocio\obj\Debug\netcoreapp2.0\Eventos.RegrasDeNegocio.AssemblyInfo.cs
