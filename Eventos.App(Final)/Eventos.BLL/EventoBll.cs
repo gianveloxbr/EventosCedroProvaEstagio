@@ -47,7 +47,7 @@ namespace Eventos.BLL
 
         public Evento PrepararEvento(EventoModelView eventoModelView, Evento evento)
         {
-            evento.Nome = eventoModelView.Nome;
+            evento.NomeEvento = eventoModelView.Nome;
             evento.Data = eventoModelView.Data;
 			evento.Local = eventoModelView.Local;
             evento.HoraInicio = eventoModelView.HoraIncio;
@@ -56,7 +56,37 @@ namespace Eventos.BLL
             evento.QuantidadeDeAmbientes = eventoModelView.QuantidadeDeAmbientes;
             evento.FaixaEtaria = eventoModelView.FaixaEtaria;
 
+            if(evento.HoraInicio.Hour > 10 && evento.HoraFinal.Hour < 20 && evento.QuantidadeAmbientes > 2)
+            {
+                evento.FaixaEtaria = "Menor que 16 anos.";
+            }
+            else
+                if (evento.HoraInicio.Hour > 20 && evento.HoraFinal.Hour < 2 && evento.OpenBar == false)
+            {
+                evento.FaixaEtaria = "Maior que 16 anos.";
+            }
+            else
+            {
+                evento.FaixaEtaria = "Maior que 18 anos.";
+            }
+            
+
+            //Quests Adicionais
+            evento.MaximoIngressos = eventoModelView.MaximoIngressos;
+            evento.IngressosVendidos = eventoModelView.IngressosVendidos;
+            evento.Ingressos = eventoModelView.Ingressos;
+
+            if(evento.IngressosVendidos == evento.MaximoIngressos)
+            {
+                evento.Ingressos = "Todos os ingressos estão esgotados.";
+            }
+            else
+            {
+                evento.Ingressos = "Ainda há Ingressos Disponíveis.";
+            }
+
             return evento;
+        }
 
         }
     }
