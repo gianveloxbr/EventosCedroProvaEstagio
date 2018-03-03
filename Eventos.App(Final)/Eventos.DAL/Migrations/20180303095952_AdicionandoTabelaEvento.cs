@@ -16,7 +16,7 @@ namespace Eventos.DAL.Migrations
                     IdEvento = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Data = table.Column<DateTime>(nullable: false),
-                    FaixaEtaria = table.Column<int>(nullable: false),
+                    FaixaEtaria = table.Column<string>(nullable: false),
                     HoraFim = table.Column<TimeSpan>(nullable: false),
                     HoraInicio = table.Column<TimeSpan>(nullable: false),
                     Local = table.Column<string>(maxLength: 100, nullable: false),

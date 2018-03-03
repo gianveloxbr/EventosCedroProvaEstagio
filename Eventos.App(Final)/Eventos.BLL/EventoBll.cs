@@ -47,21 +47,21 @@ namespace Eventos.BLL
 
         public Evento PrepararEvento(EventoModelView eventoModelView, Evento evento)
         {
-            evento.NomeEvento = eventoModelView.Nome;
+            evento.NomeEvento = eventoModelView.NomeEvento;
             evento.Data = eventoModelView.Data;
 			evento.Local = eventoModelView.Local;
-            evento.HoraInicio = eventoModelView.HoraIncio;
+            evento.HoraInicio = eventoModelView.HoraInicio;
             evento.HoraFim = eventoModelView.HoraFim;
             evento.OpenBar = eventoModelView.OpenBar;
             evento.QuantidadeDeAmbientes = eventoModelView.QuantidadeDeAmbientes;
             evento.FaixaEtaria = eventoModelView.FaixaEtaria;
 
-            if(evento.HoraInicio.Hour > 10 && evento.HoraFinal.Hour < 20 && evento.QuantidadeAmbientes > 2)
+            if(evento.HoraInicio.Hours > 10 && evento.HoraFim.Hours < 20 && evento.QuantidadeDeAmbientes > 2)
             {
                 evento.FaixaEtaria = "Menor que 16 anos.";
             }
             else
-                if (evento.HoraInicio.Hour > 20 && evento.HoraFinal.Hour < 2 && evento.OpenBar == false)
+                if (evento.HoraInicio.Hours > 20 && evento.HoraFim.Hours < 2 && evento.OpenBar == false)
             {
                 evento.FaixaEtaria = "Maior que 16 anos.";
             }
@@ -90,4 +90,3 @@ namespace Eventos.BLL
 
         }
     }
-}

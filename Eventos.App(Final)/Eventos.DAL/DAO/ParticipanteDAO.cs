@@ -1,4 +1,4 @@
-using Eventos.DAL.Modelos;
+using Eventos.DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,48 +10,47 @@ namespace Eventos.DAL.ObjetosDeAcesso
     {
         public void Inserir(Participante participante)
         {
-            using (var bancoDeDados = new BancoDeDados())
+            using (var DataBase = new DataBase())
             {
-                bancoDeDados.Participantes.Add(participante);
-                bancoDeDados.SaveChanges();
+                DataBase.Participantes.Add(participante);
+                DataBase.SaveChanges();
             }
         }
 
         public void Deletar(int id)
         {
-            using (var bancoDeDados = new BancoDeDados())
+            using (var DataBase = new DataBase())
             {
                 var participante = ObterPorId(id);
-                bancoDeDados.Participantes.Remove(participante);
-                bancoDeDados.SaveChanges();
+                DataBase.Participantes.Remove(participante);
+                DataBase.SaveChanges();
             }
         }
 
 
         public void Atualizar(Participante participante)
         {
-            using (var bancoDeDados = new BancoDeDados())
+            using (var DataBase = new DataBase())
             {
-                bancoDeDados.Participantes.Update(participante);
-                bancoDeDados.SaveChanges();
+                DataBase.Participantes.Update(participante);
+                DataBase.SaveChanges();
             }
         }
 
         public List<Participante> ObterTodos()
         {
-            using (var bancoDeDados = new BancoDeDados())
+            using (var DataBase = new DataBase())
             {
-                return bancoDeDados.Participantes.ToList();
+                return DataBase.Participantes.ToList();
             }
         }
 
         public Participante ObterPorId(int id)
         {
-            using (var bancoDeDados = new BancoDeDados())
+            using (var DataBase = new DataBase())
             {
-                return bancoDeDados.Participantes.Find(id);
+                return DataBase.Participantes.Find(id);
             }
         }
     }
-}
 }

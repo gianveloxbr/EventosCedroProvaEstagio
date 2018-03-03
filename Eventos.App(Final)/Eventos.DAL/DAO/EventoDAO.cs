@@ -10,7 +10,7 @@ namespace Eventos.DAL.DAO
     {
         public List<Evento> ObterTodos()
         {
-            using (var database = new Database())
+            using (var database = new DataBase())
             {
 
                 return database.Eventos.ToList();
@@ -18,7 +18,7 @@ namespace Eventos.DAL.DAO
         }
         public void Inserir(Evento evento)
         {
-            using (var database = new Database())
+            using (var database = new DataBase())
             {
                 database.Eventos.Add(evento);
                 database.SaveChanges();
@@ -28,7 +28,7 @@ namespace Eventos.DAL.DAO
 
         public Evento ObterPorId(int id)
         {
-            using (var database = new Database())
+            using (var database = new DataBase())
             {
                 return database.Eventos.Find(id);
             }
@@ -36,7 +36,7 @@ namespace Eventos.DAL.DAO
 
         public void Deletar(int id)
         {
-            using (var database = new Database())
+            using (var database = new DataBase())
             {
                 var evento = ObterPorId(id);
                 database.Eventos.Remove(evento);
@@ -47,7 +47,7 @@ namespace Eventos.DAL.DAO
         public void Atualizar(Evento evento)
         {
 
-            using (var database = new Database())
+            using (var database = new DataBase())
             {
                 database.Eventos.Update(evento);
                 database.SaveChanges();

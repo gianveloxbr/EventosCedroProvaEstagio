@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Eventos.DAL")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Eventos.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Eventos.DAL")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Eventos.DAL")]
+[assembly: System.Reflection.AssemblyProductAttribute("Eventos.BLL")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Eventos.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

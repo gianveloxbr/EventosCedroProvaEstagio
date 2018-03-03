@@ -10,7 +10,6 @@ namespace Eventos.DAL.ModelView
 
         [Key]
 		[Required]
-[Required]
         [StringLength(50)]
         public String NomeEvento { get; set; }
         [Required]
@@ -31,7 +30,7 @@ namespace Eventos.DAL.ModelView
         public int QuantidadeDeAmbientes { get; set; }
         [Required]
         [Range(0, 18)] //Define a faixa de classificação dos Participantes.
-        public int FaixaEtaria { get; set; }
+        public string FaixaEtaria { get; set; }
 		
 		//Quests Adicionais
 		[Required]

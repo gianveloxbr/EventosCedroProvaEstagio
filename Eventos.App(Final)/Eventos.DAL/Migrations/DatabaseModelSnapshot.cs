@@ -10,7 +10,7 @@ using System;
 
 namespace Eventos.DAL.Migrations
 {
-    [DbContext(typeof(Database))]
+    [DbContext(typeof(DataBase))]
     partial class DatabaseModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

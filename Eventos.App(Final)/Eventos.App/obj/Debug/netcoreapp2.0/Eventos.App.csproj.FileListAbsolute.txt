@@ -1,0 +1,15 @@
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\obj\Debug\netcoreapp2.0\Eventos.App.csprojResolveAssemblyReference.cache
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\obj\Debug\netcoreapp2.0\Eventos.App.csproj.CoreCompileInputs.cache
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\obj\Debug\netcoreapp2.0\Eventos.App.AssemblyInfoInputs.cache
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\obj\Debug\netcoreapp2.0\Eventos.App.AssemblyInfo.cs
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\bin\Debug\netcoreapp2.0\Eventos.App.deps.json
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\bin\Debug\netcoreapp2.0\Eventos.App.runtimeconfig.json
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\bin\Debug\netcoreapp2.0\Eventos.App.runtimeconfig.dev.json
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\bin\Debug\netcoreapp2.0\Eventos.App.dll
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\bin\Debug\netcoreapp2.0\Eventos.App.pdb
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\bin\Debug\netcoreapp2.0\Eventos.BLL.dll
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\bin\Debug\netcoreapp2.0\Eventos.DAL.dll
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\bin\Debug\netcoreapp2.0\Eventos.DAL.pdb
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\bin\Debug\netcoreapp2.0\Eventos.BLL.pdb
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\obj\Debug\netcoreapp2.0\Eventos.App.dll
+C:\Users\Gianvelox\Desktop\Eventos.App(Final)\Eventos.App\obj\Debug\netcoreapp2.0\Eventos.App.pdb

@@ -10,7 +10,7 @@ using System;
 
 namespace Eventos.DAL.Migrations
 {
-    [DbContext(typeof(Database))]
+    [DbContext(typeof(DataBase))]
     [Migration("201803031095952_AdicionandoTabelaParticipante")]
     partial class AdicionandoTabelaParticipante
     {

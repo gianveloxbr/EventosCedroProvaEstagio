@@ -10,7 +10,7 @@ using System;
 
 namespace Eventos.DAL.Migrations
 {
-    [DbContext(typeof(Database))]
+    [DbContext(typeof(DataBase))]
     [Migration("201803031095952_AdicionandoTabelaEvento")]
     partial class AdicionandoTabelaEvento
     {
@@ -29,7 +29,7 @@ namespace Eventos.DAL.Migrations
 
                     b.Property<DateTime>("Data");
 
-                    b.Property<int>("FaixaEtaria");
+                    b.Property<string>("FaixaEtaria");
 
                     b.Property<TimeSpan>("HoraFim");
 

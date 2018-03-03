@@ -32,7 +32,7 @@ namespace Eventos.DAL.Models
         public int QuantidadeDeAmbientes { get; set; }
         [Required]
         [Range(0, 18)]
-        public int FaixaEtaria { get; set; }
+        public string FaixaEtaria { get; set; }
 		
 		//Quests Adicionais
 		[Required]
