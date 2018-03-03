@@ -1,7 +1,7 @@
 # Avaliação Eventos - Cedro Technologies - 	Programa Jovens Talentos (Estágio) - Patos de Minas
 # OBS:
 A pasta Eventos.App é obsoleta e não está funcional. Favor Ignorar e usar Eventos.App(Final) ao inves dela.
-<p align="center"><a href="http://cedrotech.com" target="_blank"><img src="http://www.cedrotech.com/wp-content/uploads/2015/10/logo-cedro.png" alt="cedro"></a></p>
+<p align="center"><a href="http://www.cedrotech.com" target="_blank"><img src="http://www.cedrotech.com/wp-content/uploads/2015/10/logo-cedro.png" alt="cedro"></a></p>
 <p align="center">
   <img src="https://media.giphy.com/media/u3NqET5KZHkOs/giphy.gif" alt="Olá :)"/>
 </p>
